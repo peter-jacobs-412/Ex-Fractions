@@ -21,7 +21,7 @@ void setup() {
   pinMode(PROTO_BIT, OUTPUT);
   pinMode(ON_BOARD_LED, OUTPUT);
 }
-
+//test
 void loop() {
   if(digitalRead(BUTTON1) == LOW or digitalRead(BUTTON2) == LOW) {
     digitalWrite(PROTO_BIT, HIGH);
